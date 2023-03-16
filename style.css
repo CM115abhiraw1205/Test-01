@@ -4,6 +4,12 @@ header {
   right: 30px;
 }
 
+header span{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header a:link,
 a:visited,
 a:active {
@@ -42,6 +48,10 @@ header a:hover {
   border-radius: 50%;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+.headerpics{
+  align-items: center;
 }
 
 div {
