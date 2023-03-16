@@ -4,7 +4,7 @@ header {
   right: 30px;
 }
 
-header span{
+header span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ header a:hover {
   margin-right: 20px;
 }
 
-.headerpics{
+.headerpics {
   align-items: center;
 }
 
