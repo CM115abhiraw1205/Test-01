@@ -116,6 +116,7 @@ footer a:hover {
   left: 18px;
   padding-right: 15px;
   padding-left: 15px;
+  float: left;
 }
 
 .rightlinks {
@@ -144,12 +145,6 @@ input[type="text"]::-ms-reveal {
   height: 0;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
 .button {
   background-color: blue;
   border: none;
@@ -161,9 +156,13 @@ input[type="text"]::-ms-reveal {
   border-radius: 3px;
   font-family: arial, sans-serif;
   font-weight: bold;
+  margin-left:4px;
+	margin-right:4px;
+	margin-top: 15px;
+
 }
 
-.buttons .button a {
+.button a {
   color: #fff;
 }
 
@@ -182,6 +181,10 @@ input[type="text"]::-ms-reveal {
   padding: 10px 20px;
   margin: 0 10px;
   border-radius: 3px;
+  margin-left:4px;
+	margin-right:4px;
+	margin-top: 15px;
+
 }
 
 .btn:hover {
